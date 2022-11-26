@@ -1,0 +1,31 @@
+.image {
+  float: right;
+
+}
+.text1 {
+float: left;
+width: 500px ;
+}
+.clear {
+  clear:both ;
+}
+.text2 {
+  display: inline-block;
+  text-transform: capitalize;
+}
+.text2::before{
+  content: 'Geolab';
+  display: inline-block;
+  color: red;
+  font-size: 19px;
+  text-transform: uppercase;
+  margin-right: 20px;
+
+}
+
+.text2::after {
+  content: 'Lesson 5 ';
+  display: inline-block;
+  color: green;
+  margin-left: 20px;
+}
