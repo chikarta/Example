@@ -1,4 +1,6 @@
-.image {
+body{
+  background: grey;
+}.image {
   float: right;
 
 }
